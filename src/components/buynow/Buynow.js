@@ -41,12 +41,13 @@ const Buynow = () => {
     if (res.status !== 201) {
       console.log("error");
     } else {
-      const reverseCartdata = data.carts;
-      console.log("Line 45 buynow");
-      console.log(reverseCartdata.reverse());
-      setCartdata(reverseCartdata.reverse());
+      setCartdata(data.carts);
     }
   };
+
+  console.log("Line 50 buynow");
+  const newCartdata = cartdata.reverse();
+  setCartdata(newCartdata);
 
   useEffect(() => {
     getbuydata();
