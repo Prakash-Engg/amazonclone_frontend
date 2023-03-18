@@ -42,12 +42,11 @@ const Buynow = () => {
       console.log("error");
     } else {
       setCartdata(data.carts);
+      console.log("Line 50 buynow");
+      const newCartdata = cartdata.z();
+      setCartdata(newCartdata);
     }
   };
-
-  console.log("Line 50 buynow");
-  const newCartdata = cartdata.reverse();
-  setCartdata(newCartdata);
 
   useEffect(() => {
     getbuydata();

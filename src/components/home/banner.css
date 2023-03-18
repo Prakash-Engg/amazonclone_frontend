@@ -1,11 +1,11 @@
 .banner_img {
   width: 100vw;
-  height: 32vh;
+  height: 45vh;
   /* margin-bottom: 2vh; */
 }
 @media (max-width: 768px) {
   .banner_img {
     object-fit: cover;
-    height: 180px;
+    height: 220px;
   }
 }
