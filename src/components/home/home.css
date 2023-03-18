@@ -1,0 +1,19 @@
+.home_section {
+  width: 100%;
+  position: relative;
+  top: 60px;
+  background-color: #e7e7e7;
+  min-height: calc(100vh - 60px);
+  border-bottom: 2px solid rgb(199, 199, 199);
+  margin-bottom: 10px;
+}
+.feed3_img {
+  margin-top: -20px;
+}
+.festive {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.right_slide {
+  margin: 2px 0px -2px 0px;
+}

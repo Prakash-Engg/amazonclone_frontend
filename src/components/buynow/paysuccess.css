@@ -1,0 +1,21 @@
+.maindev {
+  width: 98.5vw;
+  height: 100vh;
+  /* background-color: blanchedalmond; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.maindev > h2 {
+  margin-bottom: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.done_logo {
+  transform: scale(2.2);
+  margin-bottom: 15px;
+  color: rgb(62, 212, 62);
+}

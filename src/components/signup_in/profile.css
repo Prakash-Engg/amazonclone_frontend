@@ -1,0 +1,115 @@
+.profilepic {
+  width: 60%;
+}
+
+.parent {
+  margin-top: 70px;
+  display: flex;
+}
+.hello {
+  display: flex;
+  align-items: center;
+  margin-left: 6vw;
+}
+.hello > h3 {
+  margin-right: 4vw;
+}
+
+/* .profileContainer {
+  flex-direction: column-reverse;
+}
+.parent {
+  flex-direction: column;
+} */
+.yourorders {
+  width: 130px;
+  height: 7vh;
+  font-weight: 550;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.yourorders > p {
+  font-size: 15px;
+}
+.four {
+  display: flex;
+  margin-left: 15vw;
+  margin-top: 5vh;
+  margin-bottom: 2.5vh;
+}
+.form {
+  width: 60vw;
+  margin-left: 15vw;
+}
+.doneform > .update {
+  margin-left: 30vw;
+  width: 250px;
+  margin-bottom: 6vh;
+  font-size: 1.2rem;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+}
+.nameinput {
+  margin-bottom: 27px;
+  height: 25px;
+  width: 30vw;
+  font-size: 15px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+}
+.nameinput1 {
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-style: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .nameinput {
+    width: 200px;
+  }
+}
+
+@media only screen and (min-width: 580px) and (max-width: 800px) {
+  .yourorders {
+    width: 180px;
+    height: 8.5vh;
+    font-weight: 550;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+  }
+  .yourorders > p {
+    font-size: 18px;
+  }
+  .form {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .fourtop {
+    display: flex;
+  }
+  .fourbottom {
+    display: flex;
+  }
+  .form {
+    width: 400px;
+  }
+  .yourorders {
+    margin-right: 40px;
+  }
+}
